@@ -4,7 +4,7 @@ const router = express.Router();
 const prisma = new PrismaClient();
 
 // Endpoint para pegar todas as perguntas
-router.get('/questions', async (req, res) => {
+router.get('/', async (req, res) => {
     try {
         const questions = await prisma.question.findMany();
         res.json(questions);
@@ -31,7 +31,7 @@ router.get('/group/:groupId', async (req, res) => {
     }
 });
 
-router.post('/questions', async (req, res) => {
+router.post('/', async (req, res) => {
     const { groupId, groupName, content, optionA, optionB } = req.body;
     try {
         const newQuestion = await prisma.question.create({
