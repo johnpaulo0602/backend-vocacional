@@ -1,7 +1,7 @@
 {
     "groups": [
         {
-            "name": "Grupo I",
+            "name": "tecnologicas",
             "questions": [
                 {
                     "content": "Você prefere ler sobre eletricidade ou ler sobre física nuclear?",
@@ -126,7 +126,7 @@
             ]
         },
         {
-            "name": "Grupo II",
+            "name": "biologicas",
             "questions": [
                 {
                     "content": "Você prefere visitar um asilo de velhos ou visitar uma usina nuclear?",
@@ -251,7 +251,7 @@
             ]
         },
         {
-            "name": "Grupo III",
+            "name": "humanas",
             "questions": [
                 {
                     "content": "Você prefere visitar um asilo de velhos ou visitar uma usina nuclear?",
@@ -376,7 +376,7 @@
             ]
         },
         {
-            "name": "Grupo IV",
+            "name": "comunicacao",
             "questions": [
                 {
                     "content": "Você prefere visitar um asilo de velhos ou visitar uma usina nuclear?",
@@ -497,6 +497,71 @@
                     "content": "Você prefere criar modelos de cartões-postais ou criar frases originais para esses cartões?",
                     "optionA": "Criar modelos de cartões-postais",
                     "optionB": "Criar frases originais para esses cartões"
+                }
+            ]
+        },
+        {
+            "name": "artes",
+            "questions": [
+                {
+                    "content": "Você prefere visitar uma exposição de escultura ou conhecer um novo tipo de fax?",
+                    "optionA": "Visitar uma exposição de escultura",
+                    "optionB": "Conhecer um novo tipo de fax"
+                },
+                {
+                    "content": "Você prefere ler sobre cinema e teatro ou ler sobre avanços tecnológicos?",
+                    "optionA": "Ler sobre cinema e teatro",
+                    "optionB": "Ler sobre avanços tecnológicos"
+                },
+                {
+                    "content": "Você prefere colecionar reproduções de pintura ou colecionar gráficos da inflação?",
+                    "optionA": "Colecionar reproduções de pintura",
+                    "optionB": "Colecionar gráficos da inflação"
+                },
+                {
+                    "content": "Você prefere criar designs de objetos ou criar campanhas de trânsito?",
+                    "optionA": "Criar designs de objetos",
+                    "optionB": "Criar campanhas de trânsito"
+                },
+                {
+                    "content": "Você prefere bolar um novo tipo de cenografia para dança ou bolar uma nova iluminação para palco?",
+                    "optionA": "Bolar um novo tipo de cenografia para dança",
+                    "optionB": "Bolar uma nova iluminação para palco"
+                },
+                {
+                    "content": "Você prefere inventar estampas para tecido ou criar desenhos para histórias em quadrinhos?",
+                    "optionA": "Inventar estampas para tecido",
+                    "optionB": "Criar desenhos para histórias em quadrinhos"
+                },
+                {
+                    "content": "Você prefere fazer experiências num laboratório de química ou fazer desenhos e gravura?",
+                    "optionA": "Fazer experiências num laboratório de química",
+                    "optionB": "Fazer desenhos e gravura"
+                },
+                {
+                    "content": "Você prefere testar a resistência dos materiais ou fazer decoração de ambientes?",
+                    "optionA": "Testar a resistência dos materiais",
+                    "optionB": "Fazer decoração de ambientes"
+                },
+                {
+                    "content": "Você prefere trabalhar com computador ou desenhar os móveis de uma casa?",
+                    "optionA": "Trabalhar com computador",
+                    "optionB": "Desenhar os móveis de uma casa"
+                },
+                {
+                    "content": "Você prefere ler sobre o efeito estufa ou ler sobre a história da música?",
+                    "optionA": "Ler sobre o efeito estufa",
+                    "optionB": "Ler sobre a história da música"
+                },
+                {
+                    "content": "Você prefere redigir um roteiro de cinema ou trabalhar num filme?",
+                    "optionA": "Redigir um roteiro de cinema",
+                    "optionB": "Trabalhar num filme"
+                },
+                {
+                    "content": "Você prefere criar desenhos para embalagens de produtos ou criar ilustrações para artigos da imprensa?",
+                    "optionA": "Criar desenhos para embalagens de produtos",
+                    "optionB": "Criar ilustrações para artigos da imprensa"
                 }
             ]
         }

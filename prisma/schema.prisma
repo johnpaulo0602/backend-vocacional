@@ -16,6 +16,7 @@ model Question {
   optionB   String
 
   group     Group   @relation(fields: [groupId], references: [id])
+  @@index([groupName])
 }
 
 model Group {

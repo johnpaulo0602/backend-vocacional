@@ -14,19 +14,19 @@ router.get('/', async (req, res) => {
     }
 });
 
-// Endpoint para obter perguntas por ID do grupo
-router.get('/group/:groupId', async (req, res) => {
-    const { groupId } = req.params;
+// Endpoint para obter perguntas por nome do grupo
+router.get('/group/:groupName', async (req, res) => {
+    const { groupName } = req.params;
     try {
-        console.log('Buscando perguntas para o grupo com ID:', groupId);
+        console.log('Buscando perguntas para o grupo com nome:', groupName);
         const questions = await prisma.question.findMany({
             where: {
-                groupId: groupId
+                groupName: groupName
             }
         });
         res.json(questions);
     } catch (error) {
-        console.error('Erro ao buscar perguntas por ID do grupo:', error);
+        console.error('Erro ao buscar perguntas por nome do grupo:', error);
         res.status(500).json({ error: 'Erro ao buscar perguntas' });
     }
 });
