@@ -62,7 +62,12 @@
                     "content": "Você prefere visitar uma galeria de arte ou conhecer um novo aparelho de laboratório?",
                     "optionA": "Visitar uma galeria de arte",
                     "optionB": "Conhecer um novo aparelho de laboratório"
-                },
+                }
+            ]
+        },
+        {
+            "name": "biologicas",
+            "questions": [
                 {
                     "content": "Você prefere conhecer as leis da genética ou conhecer o funcionamento de um motor?",
                     "optionA": "Conhecer as leis da genética",
@@ -122,131 +127,6 @@
                     "content": "Você prefere ler a seção de variedades de um jornal ou ler sobre a importância das vitaminas?",
                     "optionA": "Ler a seção de variedades de um jornal",
                     "optionB": "Ler sobre a importância das vitaminas"
-                }
-            ]
-        },
-        {
-            "name": "biologicas",
-            "questions": [
-                {
-                    "content": "Você prefere visitar um asilo de velhos ou visitar uma usina nuclear?",
-                    "optionA": "Visitar um asilo de velhos",
-                    "optionB": "Visitar uma usina nuclear"
-                },
-                {
-                    "content": "Você prefere estudar o problema do menor abandonado ou observar o comportamento dos insetos?",
-                    "optionA": "Estudar o problema do menor abandonado",
-                    "optionB": "Observar o comportamento dos insetos"
-                },
-                {
-                    "content": "Você prefere entrevistar famílias sobre educação dos filhos ou organizar e tabular pesquisas?",
-                    "optionA": "Entrevistar famílias sobre educação dos filhos",
-                    "optionB": "Organizar e tabular pesquisas"
-                },
-                {
-                    "content": "Você prefere ajudar a resolver problemas de crianças ou ajudar famílias de migrantes a se adaptar?",
-                    "optionA": "Ajudar a resolver problemas de crianças",
-                    "optionB": "Ajudar famílias de migrantes a se adaptar"
-                },
-                {
-                    "content": "Você prefere ser voluntário em programas de adoção de menores ou participar de cursos de redação?",
-                    "optionA": "Ser voluntário em programas de adoção de menores",
-                    "optionB": "Participar de cursos de redação"
-                },
-                {
-                    "content": "Você prefere ler sobre a produção de drogas ou ler sobre arte clássica?",
-                    "optionA": "Ler sobre a produção de drogas",
-                    "optionB": "Ler sobre arte clássica"
-                },
-                {
-                    "content": "Você prefere obter uma bolsa de estatística ou obter uma bolsa de pedagogia?",
-                    "optionA": "Obter uma bolsa de estatística",
-                    "optionB": "Obter uma bolsa de pedagogia"
-                },
-                {
-                    "content": "Você prefere analisar a composição dos alimentos ou analisar as causas do desemprego?",
-                    "optionA": "Analisar a composição dos alimentos",
-                    "optionB": "Analisar as causas do desemprego"
-                },
-                {
-                    "content": "Você prefere calcular o aumento do custo de vida ou estudar a condição social do trabalhador?",
-                    "optionA": "Calcular o aumento do custo de vida",
-                    "optionB": "Estudar a condição social do trabalhador"
-                },
-                {
-                    "content": "Você prefere ajudar a combater a mendicância ou ajudar na educação de favelados?",
-                    "optionA": "Ajudar a combater a mendicância",
-                    "optionB": "Ajudar na educação de favelados"
-                },
-                {
-                    "content": "Você prefere estudar informática ou estudar novo método para erradicar o analfabetismo?",
-                    "optionA": "Estudar informática",
-                    "optionB": "Estudar novo método para erradicar o analfabetismo"
-                },
-                {
-                    "content": "Você prefere desenhar modelos de roupas ou ensinar crianças a se orientar no trânsito?",
-                    "optionA": "Desenhar modelos de roupas",
-                    "optionB": "Ensinar crianças a se orientar no trânsito"
-                },
-                {
-                    "content": "Você prefere ler obras de romancistas consagrados ou conhecer trabalhos de prêmios Nobel de física?",
-                    "optionA": "Ler obras de romancistas consagrados",
-                    "optionB": "Conhecer trabalhos de prêmios Nobel de física"
-                },
-                {
-                    "content": "Você prefere estudar a história da pintura ou estudar a história da ciência?",
-                    "optionA": "Estudar a história da pintura",
-                    "optionB": "Estudar a história da ciência"
-                },
-                {
-                    "content": "Você prefere pertencer a um grupo literário ou pertencer a um grupo da internet especializado em finanças?",
-                    "optionA": "Pertencer a um grupo literário",
-                    "optionB": "Pertencer a um grupo da internet especializado em finanças"
-                },
-                {
-                    "content": "Você prefere aprender um idioma estrangeiro ou aprender um novo sistema de catalogar animais?",
-                    "optionA": "Aprender um idioma estrangeiro",
-                    "optionB": "Aprender um novo sistema de catalogar animais"
-                },
-                {
-                    "content": "Você prefere fazer um curso de literatura moderno ou assistir a um curso de gramática?",
-                    "optionA": "Fazer um curso de literatura moderno",
-                    "optionB": "Assistir a um curso de gramática"
-                },
-                {
-                    "content": "Você prefere escrever uma peça teatral ou trabalhar numa peça?",
-                    "optionA": "Escrever uma peça teatral",
-                    "optionB": "Trabalhar numa peça"
-                },
-                {
-                    "content": "Você prefere projetar uma estrada ou recitar poemas?",
-                    "optionA": "Projetar uma estrada",
-                    "optionB": "Recitar poemas"
-                },
-                {
-                    "content": "Você prefere ler sobre protozoários ou ler sobre poesia?",
-                    "optionA": "Ler sobre protozoários",
-                    "optionB": "Ler sobre poesia"
-                },
-                {
-                    "content": "Você prefere escrever uma tese de química ou escrever uma novela?",
-                    "optionA": "Escrever uma tese de química",
-                    "optionB": "Escrever uma novela"
-                },
-                {
-                    "content": "Você prefere participar de programas de recuperação de drogados ou participar de um curso de arte?",
-                    "optionA": "Participar de programas de recuperação de drogados",
-                    "optionB": "Participar de um curso de arte"
-                },
-                {
-                    "content": "Você prefere estudar regras de estilo e oratória ou estudar literatura e interpretação de texto?",
-                    "optionA": "Estudar regras de estilo e oratória",
-                    "optionB": "Estudar literatura e interpretação de texto"
-                },
-                {
-                    "content": "Você prefere criar modelos de cartões-postais ou criar frases originais para esses cartões?",
-                    "optionA": "Criar modelos de cartões-postais",
-                    "optionB": "Criar frases originais para esses cartões"
                 }
             ]
         },
@@ -312,132 +192,12 @@
                     "content": "Você prefere desenhar modelos de roupas ou ensinar crianças a se orientar no trânsito?",
                     "optionA": "Desenhar modelos de roupas",
                     "optionB": "Ensinar crianças a se orientar no trânsito"
-                },
-                {
-                    "content": "Você prefere ler obras de romancistas consagrados ou conhecer trabalhos de prêmios Nobel de física?",
-                    "optionA": "Ler obras de romancistas consagrados",
-                    "optionB": "Conhecer trabalhos de prêmios Nobel de física"
-                },
-                {
-                    "content": "Você prefere estudar a história da pintura ou estudar a história da ciência?",
-                    "optionA": "Estudar a história da pintura",
-                    "optionB": "Estudar a história da ciência"
-                },
-                {
-                    "content": "Você prefere pertencer a um grupo literário ou pertencer a um grupo da internet especializado em finanças?",
-                    "optionA": "Pertencer a um grupo literário",
-                    "optionB": "Pertencer a um grupo da internet especializado em finanças"
-                },
-                {
-                    "content": "Você prefere aprender um idioma estrangeiro ou aprender um novo sistema de catalogar animais?",
-                    "optionA": "Aprender um idioma estrangeiro",
-                    "optionB": "Aprender um novo sistema de catalogar animais"
-                },
-                {
-                    "content": "Você prefere fazer um curso de literatura moderno ou assistir a um curso de gramática?",
-                    "optionA": "Fazer um curso de literatura moderno",
-                    "optionB": "Assistir a um curso de gramática"
-                },
-                {
-                    "content": "Você prefere escrever uma peça teatral ou trabalhar numa peça?",
-                    "optionA": "Escrever uma peça teatral",
-                    "optionB": "Trabalhar numa peça"
-                },
-                {
-                    "content": "Você prefere projetar uma estrada ou recitar poemas?",
-                    "optionA": "Projetar uma estrada",
-                    "optionB": "Recitar poemas"
-                },
-                {
-                    "content": "Você prefere ler sobre protozoários ou ler sobre poesia?",
-                    "optionA": "Ler sobre protozoários",
-                    "optionB": "Ler sobre poesia"
-                },
-                {
-                    "content": "Você prefere escrever uma tese de química ou escrever uma novela?",
-                    "optionA": "Escrever uma tese de química",
-                    "optionB": "Escrever uma novela"
-                },
-                {
-                    "content": "Você prefere participar de programas de recuperação de drogados ou participar de um curso de arte?",
-                    "optionA": "Participar de programas de recuperação de drogados",
-                    "optionB": "Participar de um curso de arte"
-                },
-                {
-                    "content": "Você prefere estudar regras de estilo e oratória ou estudar literatura e interpretação de texto?",
-                    "optionA": "Estudar regras de estilo e oratória",
-                    "optionB": "Estudar literatura e interpretação de texto"
-                },
-                {
-                    "content": "Você prefere criar modelos de cartões-postais ou criar frases originais para esses cartões?",
-                    "optionA": "Criar modelos de cartões-postais",
-                    "optionB": "Criar frases originais para esses cartões"
                 }
             ]
         },
         {
             "name": "comunicacao",
             "questions": [
-                {
-                    "content": "Você prefere visitar um asilo de velhos ou visitar uma usina nuclear?",
-                    "optionA": "Visitar um asilo de velhos",
-                    "optionB": "Visitar uma usina nuclear"
-                },
-                {
-                    "content": "Você prefere estudar o problema do menor abandonado ou observar o comportamento dos insetos?",
-                    "optionA": "Estudar o problema do menor abandonado",
-                    "optionB": "Observar o comportamento dos insetos"
-                },
-                {
-                    "content": "Você prefere entrevistar famílias sobre educação dos filhos ou organizar e tabular pesquisas?",
-                    "optionA": "Entrevistar famílias sobre educação dos filhos",
-                    "optionB": "Organizar e tabular pesquisas"
-                },
-                {
-                    "content": "Você prefere ajudar a resolver problemas de crianças ou ajudar famílias de migrantes a se adaptar?",
-                    "optionA": "Ajudar a resolver problemas de crianças",
-                    "optionB": "Ajudar famílias de migrantes a se adaptar"
-                },
-                {
-                    "content": "Você prefere ser voluntário em programas de adoção de menores ou participar de cursos de redação?",
-                    "optionA": "Ser voluntário em programas de adoção de menores",
-                    "optionB": "Participar de cursos de redação"
-                },
-                {
-                    "content": "Você prefere ler sobre a produção de drogas ou ler sobre arte clássica?",
-                    "optionA": "Ler sobre a produção de drogas",
-                    "optionB": "Ler sobre arte clássica"
-                },
-                {
-                    "content": "Você prefere obter uma bolsa de estatística ou obter uma bolsa de pedagogia?",
-                    "optionA": "Obter uma bolsa de estatística",
-                    "optionB": "Obter uma bolsa de pedagogia"
-                },
-                {
-                    "content": "Você prefere analisar a composição dos alimentos ou analisar as causas do desemprego?",
-                    "optionA": "Analisar a composição dos alimentos",
-                    "optionB": "Analisar as causas do desemprego"
-                },
-                {
-                    "content": "Você prefere calcular o aumento do custo de vida ou estudar a condição social do trabalhador?",
-                    "optionA": "Calcular o aumento do custo de vida",
-                    "optionB": "Estudar a condição social do trabalhador"
-                },
-                {
-                    "content": "Você prefere ajudar a combater a mendicância ou ajudar na educação de favelados?",
-                    "optionA": "Ajudar a combater a mendicância",
-                    "optionB": "Ajudar na educação de favelados"
-                },
-                {
-                    "content": "Você prefere estudar informática ou estudar novo método para erradicar o analfabetismo?",
-                    "optionA": "Estudar informática",
-                    "optionB": "Estudar novo método para erradicar o analfabetismo"
-                },
-                {
-                    "content": "Você prefere desenhar modelos de roupas ou ensinar crianças a se orientar no trânsito?",
-                    "optionA": "Desenhar modelos de roupas",
-                    "optionB": "Ensinar crianças a se orientar no trânsito"
-                },
                 {
                     "content": "Você prefere ler obras de romancistas consagrados ou conhecer trabalhos de prêmios Nobel de física?",
                     "optionA": "Ler obras de romancistas consagrados",

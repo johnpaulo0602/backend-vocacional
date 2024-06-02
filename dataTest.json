@@ -1,0 +1,79 @@
+{
+    "groups": [
+        {
+            "name": "tecnologicas",
+            "questions": [
+                {
+                    "content": "Você prefere ler sobre eletricidade ou ler sobre física nuclear?",
+                    "optionA": "Ler sobre eletricidade",
+                    "optionB": "Ler sobre física nuclear"
+                },
+                {
+                    "content": "Você prefere observar planetas no telescópio ou observar célula no microscópio?",
+                    "optionA": "Observar planetas no telescópio",
+                    "optionB": "Observar célula no microscópio"
+                }
+            ]
+        },
+        {
+            "name": "biologicas",
+            "questions": [
+                {
+                    "content": "Você prefere conhecer as leis da genética ou conhecer o funcionamento de um motor?",
+                    "optionA": "Conhecer as leis da genética",
+                    "optionB": "Conhecer o funcionamento de um motor"
+                },
+                {
+                    "content": "Você prefere visitar um laboratório de microbiologia ou ir a uma exposição de produtos?",
+                    "optionA": "Visitar um laboratório de microbiologia",
+                    "optionB": "Ir a uma exposição de produtos"
+                }
+            ]
+        },
+        {
+            "name": "humanas",
+            "questions": [
+                {
+                    "content": "Você prefere visitar um asilo de velhos ou visitar uma usina nuclear?",
+                    "optionA": "Visitar um asilo de velhos",
+                    "optionB": "Visitar uma usina nuclear"
+                },
+                {
+                    "content": "Você prefere estudar o problema do menor abandonado ou observar o comportamento dos insetos?",
+                    "optionA": "Estudar o problema do menor abandonado",
+                    "optionB": "Observar o comportamento dos insetos"
+                }
+            ]
+        },
+        {
+            "name": "comunicacao",
+            "questions": [
+                {
+                    "content": "Você prefere ler obras de romancistas consagrados ou conhecer trabalhos de prêmios Nobel de física?",
+                    "optionA": "Ler obras de romancistas consagrados",
+                    "optionB": "Conhecer trabalhos de prêmios Nobel de física"
+                },
+                {
+                    "content": "Você prefere estudar a história da pintura ou estudar a história da ciência?",
+                    "optionA": "Estudar a história da pintura",
+                    "optionB": "Estudar a história da ciência"
+                }
+            ]
+        },
+        {
+            "name": "artes",
+            "questions": [
+                {
+                    "content": "Você prefere visitar uma exposição de escultura ou conhecer um novo tipo de fax?",
+                    "optionA": "Visitar uma exposição de escultura",
+                    "optionB": "Conhecer um novo tipo de fax"
+                },
+                {
+                    "content": "Você prefere ler sobre cinema e teatro ou ler sobre avanços tecnológicos?",
+                    "optionA": "Ler sobre cinema e teatro",
+                    "optionB": "Ler sobre avanços tecnológicos"
+                }
+            ]
+        }
+    ]
+}
