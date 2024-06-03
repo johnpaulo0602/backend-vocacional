@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado do Teste Vocacional</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+        }
+
+        .header img {
+            max-width: 100px;
+        }
+
+        .result p {
+            font-size: 16px;
+        }
+
+        .percentage {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .percentage div {
+            text-align: center;
+        }
+
+        .percentage div p {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .footer p {
+            font-size: 14px;
+        }
+
+        .course {
+            margin: 20px 0;
+        }
+
+        .gradient {
+            color: #FD3078;
+        }
+
+        .course p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        .course a {
+            color: #FD3078;
+        }
+
+        .characteristics {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .characteristics img {
+            max-width: 100px;
+        }
+
+        .characteristics ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .characteristics li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .characteristics li img {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="../public/images/Logo.svg" alt="Logo">
+        </div>
+        <div class="result">
+            <h1>Deu Match! Seu perfil é o <span class="gradient">“{{firstCareerTitle}}”</span></h1>
+            <p>{{firstCareerDescription}}</p>
+        </div>
+        <div class="characteristics">
+            <img src="../public/images/trofeu.png" alt="Troféu">
+            <ul>
+                {{#each characteristics}}
+                <li>
+                    <img src="../public/images/confirm-icon.svg" alt="Confirm Icon">
+                    {{this}}
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+        <h1>Confira o <span class="gradient">resultado</span> do seu teste!</h1>
+        <div class="percentage">
+            <div>
+                <img src="../public/images/technology-icon.png" width="40%" alt="Tecnologia">
+                <p>{{technologyNote}}%</p>
+            </div>
+            <div>
+                <img src="../public/images/biology-icon.png" width="40%" alt="Biológicas">
+                <p>{{biologicalNote}}%</p>
+            </div>
+            <div>
+                <img src="../public/images/human-icon.png" width="40%" alt="Humanas">
+                <p>{{humanNote}}%</p>
+            </div>
+            <div>
+                <img src="../public/images/communication-icon.png" width="40%" alt="Comunicação">
+                <p>{{communicationNote}}%</p>
+            </div>
+            <div>
+                <img src="../public/images/arts-icon.png" width="40%" alt="Artes">
+                <p>{{artNote}}%</p>
+            </div>
+        </div>
+        <div class="result">
+            <h1>Veja os cursos que dão <span class="gradient">match</span> com você!</h1>
+            {{#each courses}}
+            <div class="course">
+                <h2>{{this.name}}</h2>
+                <p>{{this.description}}</p>
+                <p><a href="{{this.link}}">Saiba mais</a></p>
+            </div>
+            {{/each}}
+        </div>
+        <div class="footer">
+            <p>Quer fazer o teste novamente? <a href="link_para_teste">Clique aqui</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
