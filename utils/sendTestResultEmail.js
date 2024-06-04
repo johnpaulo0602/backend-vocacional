@@ -9,7 +9,7 @@ async function sendTestResultEmail(userEmail, testResult) {
         service: 'gmail',
         auth: {
             user: 'johnpaulo0602@gmail.com',
-            pass: 'bcbr lvnk pmot ajkw'
+            pass: env("APP_PASSWORD")
         }
     });
 

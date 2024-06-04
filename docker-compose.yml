@@ -1,0 +1,7 @@
+services:
+  match-career:
+    container_name: teste-vocacional-backend
+    build:
+      context: ./
+    ports:
+      - "3000:3000"
