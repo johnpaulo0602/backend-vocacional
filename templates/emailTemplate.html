@@ -28,7 +28,12 @@
         }
 
         .header img {
-            max-width: 100px;
+            max-width: 140px;
+            margin-bottom: 20px;
+        }
+
+        .result {
+            text-align: center;
         }
 
         .result p {
@@ -80,7 +85,7 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-            margin: 20px 0;
+            margin: 32px 0;
         }
 
         .characteristics img {
@@ -107,48 +112,48 @@
 <body>
     <div class="container">
         <div class="header">
-            <img src="../public/images/Logo.svg" alt="Logo">
+            <img src="https://startedgo.com/wp-content/uploads/2024/06/logo.png" alt="Logo">
         </div>
         <div class="result">
             <h1>Deu Match! Seu perfil é o <span class="gradient">“{{firstCareerTitle}}”</span></h1>
             <p>{{firstCareerDescription}}</p>
         </div>
         <div class="characteristics">
-            <img src="../public/images/trofeu.png" alt="Troféu">
+            <img src="https://startedgo.com/wp-content/uploads/2024/06/trofeu.png" alt="Troféu">
             <ul>
                 {{#each characteristics}}
                 <li>
-                    <img src="../public/images/confirm-icon.svg" alt="Confirm Icon">
+                    <img src="https://startedgo.com/wp-content/uploads/2024/06/Vector.png" width="4%" alt="Confirm Icon">
                     {{this}}
                 </li>
                 {{/each}}
             </ul>
         </div>
-        <h1>Confira o <span class="gradient">resultado</span> do seu teste!</h1>
+        <h1 style="text-align: center;">Confira o <span class="gradient">resultado</span> do seu teste!</h1>
         <div class="percentage">
             <div>
-                <img src="../public/images/technology-icon.png" width="40%" alt="Tecnologia">
+                <img src="https://startedgo.com/wp-content/uploads/2024/06/technology-icon.png" width="40%" alt="Tecnologia">
                 <p>{{technologyNote}}%</p>
             </div>
             <div>
-                <img src="../public/images/biology-icon.png" width="40%" alt="Biológicas">
+                <img src="https://startedgo.com/wp-content/uploads/2024/06/biology-icon.png" width="40%" alt="Biológicas">
                 <p>{{biologicalNote}}%</p>
             </div>
             <div>
-                <img src="../public/images/human-icon.png" width="40%" alt="Humanas">
+                <img src="https://startedgo.com/wp-content/uploads/2024/06/human-icon.png" width="40%" alt="Humanas">
                 <p>{{humanNote}}%</p>
             </div>
             <div>
-                <img src="../public/images/communication-icon.png" width="40%" alt="Comunicação">
+                <img src="https://startedgo.com/wp-content/uploads/2024/06/communication-icon.png" width="40%" alt="Comunicação">
                 <p>{{communicationNote}}%</p>
             </div>
             <div>
-                <img src="../public/images/arts-icon.png" width="40%" alt="Artes">
+                <img src="https://startedgo.com/wp-content/uploads/2024/06/arts-icon.png" width="40%" alt="Artes">
                 <p>{{artNote}}%</p>
             </div>
         </div>
         <div class="result">
-            <h1>Veja os cursos que dão <span class="gradient">match</span> com você!</h1>
+            <h1 style="text-align: center;">Veja os cursos que dão <span class="gradient">match</span> com você!</h1>
             {{#each courses}}
             <div class="course">
                 <h2>{{this.name}}</h2>
